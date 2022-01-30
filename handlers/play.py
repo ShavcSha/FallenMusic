@@ -106,7 +106,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "Anonymous"
+        user.first_name = "🎭 JOKER 🎭"
     usar = user
     wew = usar.id
     try:
@@ -153,7 +153,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/9fc0515a16d6d85bf42c5.jpg"
+        thumb_name = "https://telegra.ph/file/fc5af1769743caa2bd6f1.png"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -162,11 +162,11 @@ async def play(_, message: Message):
              [
                 [
                     InlineKeyboardButton(
-                            text="😘ᴄʀᴇᴀᴛᴏʀ",
-                            url=f"https://t.me/anonymous_was_bot"),
+                            text="😘ᴄʀᴇᴀᴛᴏʀ✨",
+                            url=f"https://t.me/StopFollowMe"),
                         InlineKeyboardButton(
-                            text="💔ɢʀᴏᴜᴘ",
-                            url=f"https://t.me/DevilsHeavenMF")
+                            text="✨ɢʀᴏᴜᴘ💫",
+                            url=f"https://t.me/HaPpInEsS4Ev6")
                    
                 ]
             ]
@@ -204,11 +204,11 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="😘ᴄʀᴇᴀᴛᴏʀ",
-                            url=f"https://t.me/anonymous_was_bot"),
+                            text="😘ᴄʀᴇᴀᴛᴏʀ✨",
+                            url=f"https://t.me/StopFollowMe"),
                         InlineKeyboardButton(
-                            text="💔ɢʀᴏᴜᴘ",
-                            url=f"https://t.me/DevilsHeavenMF")
+                            text="✨ɢʀᴏᴜᴘ💫",
+                            url=f"https://t.me/HaPpInEsS4Ev6")
                    
                 ]
             ]
@@ -216,18 +216,18 @@ async def play(_, message: Message):
 
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://telegra.ph/file/9fc0515a16d6d85bf42c5.jpg"
+            thumb_name = "https://telegra.ph/file/fc5af1769743caa2bd6f1.png"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                            text="😘ᴄʀᴇᴀᴛᴏʀ",
-                            url=f"https://t.me/anonymous_was_bot"),
+                            text="😘ᴄʀᴇᴀᴛᴏʀ✨",
+                            url=f"https://t.me/StopFollowMe"),
                         InlineKeyboardButton(
-                            text="💔ɢʀᴏᴜᴘ",
-                            url=f"https://t.me/DevilsHeavenMF")
+                            text="✨ɢʀᴏᴜᴘ💫",
+                            url=f"https://t.me/HaPpInEsS4Ev6")
                    
                 ]
             ]
@@ -280,11 +280,11 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="😘ᴄʀᴇᴀᴛᴏʀ",
-                            url=f"https://t.me/anonymous_was_bot"),
+                            text="😘ᴄʀᴇᴀᴛᴏʀ✨",
+                            url=f"https://t.me/StopFollowMe"),
                         InlineKeyboardButton(
-                            text="💔ɢʀᴏᴜᴘ",
-                            url=f"https://t.me/DevilsHeavenMF")
+                            text="✨ɢʀᴏᴜᴘ💫",
+                            url=f"https://t.me/HaPpInEsS4Ev6")
                    
                 ]
             ]
